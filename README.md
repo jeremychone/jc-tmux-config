@@ -2,7 +2,7 @@
 
 ## Reload configuration
 
-To reload the tmux configuration, run:
+To reload the tmux configuration, you can press `Prefix` + `r` or run:
 
 ```sh
 tmux source-file ~/.tmux.conf
