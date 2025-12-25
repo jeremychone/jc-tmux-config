@@ -1,5 +1,15 @@
 # tmux configuration
 
+## Useful commands
+
+- Standard command
+  - `Prefix` + `&` - close window
+  - `Prefix` + `%` - (with shift), split horizontal
+  - `Prefix` + `"` - (with shift), split vertical
+- JC Custom
+  - `Prefix` + `|` - custom 3-pane layout (60/40 split + vertical)
+  - `Prefix` + `X` - kill current session
+
 ## Reload configuration
 
 To reload the tmux configuration, you can press `Prefix` + `r` or run:
@@ -8,13 +18,6 @@ To reload the tmux configuration, you can press `Prefix` + `r` or run:
 tmux source-file ~/.tmux.conf
 ```
 
-## Useful commands
-
-- `Prefix` + `&` - close window
-- `Prefix` + `%` - (with shift), split horizontal
-- `Prefix` + `"` - (with shift), split vertical
-- `Prefix` + `|` - custom 3-pane layout (60/40 split + vertical)
-- `Prefix` + `X` - kill current session
 
 ## Setup
 
