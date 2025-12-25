@@ -5,13 +5,14 @@ Cheat Sheet - https://tmuxcheatsheet.com/
 ## Useful commands
 
 - Standard command
-  - `Prefix` + `&` - close window
-  - `Prefix` + `%` - (with shift), split horizontal
-  - `Prefix` + `"` - (with shift), split vertical
+  - `Prefix` `&` - close window
+  - `Prefix` `%` - (with shift), split horizontal
+  - `Prefix` `"` - (with shift), split vertical
 - JC Custom
-  - `Prefix` + `|` - custom 3-pane layout (60/40 split + vertical)
-  - `Prefix` + `X` - kill current session
-  - `Prefix` + `C` - kill all unattached sessions
+  - `Prefix` `r` - Reload configuration
+  - `Prefix` `|` - custom 3-pane layout (60/40 split + vertical)
+  - `Prefix` `x` - kill current session (unbound the default `x` to close pane)
+  - `Prefix` `C` - clear right panels (panes 2 and 3)
 
 ## Reload configuration
 
