@@ -9,6 +9,7 @@
 - JC Custom
   - `Prefix` + `|` - custom 3-pane layout (60/40 split + vertical)
   - `Prefix` + `X` - kill current session
+  - `Prefix` + `C` - kill all unattached sessions
 
 ## Reload configuration
 
