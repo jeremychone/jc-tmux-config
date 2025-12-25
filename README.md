@@ -13,6 +13,7 @@ tmux source-file ~/.tmux.conf
 - `Prefix` + `&` - close window
 - `Prefix` + `%` - (with shift), split horizontal
 - `Prefix` + `"` - (with shift), split vertical
+- `Prefix` + `|` - custom 3-pane layout (60/40 split + vertical)
 - `Prefix` + `X` - kill current session
 
 ## Setup
