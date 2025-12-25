@@ -1,5 +1,7 @@
 # tmux configuration
 
+Cheat Sheet - https://tmuxcheatsheet.com/
+
 ## Useful commands
 
 - Standard command
