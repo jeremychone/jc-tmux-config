@@ -13,6 +13,7 @@ tmux source-file ~/.tmux.conf
 - `Prefix` + `&` - close window
 - `Prefix` + `%` - (with shift), split horizontal
 - `Prefix` + `"` - (with shift), split vertical
+- `Prefix` + `X` - kill current session
 
 ## Setup
 
