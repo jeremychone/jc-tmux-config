@@ -5,15 +5,21 @@ Cheat Sheet - https://tmuxcheatsheet.com/
 ## Useful commands
 
 - Standard command
-  - `Prefix` `&` - close window
-  - `Prefix` `%` - (with shift), split horizontal
-  - `Prefix` `"` - (with shift), split vertical
+  - `C-b z` - Toggle current pane full screen / back to same
+  - `C-b &` - close window
+  - `C-b %` - (with shift), split horizontal
+  - `C-b "` - (with shift), split vertical
+  - `C-b ,` - rename current window
+  - `C-b $` - rename current session
+  - `C-b w` - Window chooser 
+    - `C-b ,` to rename
+    - `C-b &` skill window
 - JC Custom
-  - `Prefix` `r` - Reload configuration
-  - `Prefix` `\` - custom 3-pane layout (60/40 split + vertical)
-  - `Prefix` `|` - kill right panels (panes 2 and 3)
-  - `Prefix` `x` - kill current session (unbound the default `x` to close pane)
-  - `Prefix` `C` - clear right panels (panes 2 and 3)
+  - `C-b r` - Reload configuration
+  - `C-b \` - custom 3-pane layout (60/40 split + vertical)
+  - `C-b |` - kill right panels (panes 2 and 3)
+  - `C-b x` - kill current session (unbound the default `x` to close pane)
+  - `C-b C` - clear right panels (panes 2 and 3)
 
 ## Reload configuration
 
