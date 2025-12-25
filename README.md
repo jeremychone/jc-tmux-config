@@ -14,8 +14,11 @@ Cheat Sheet - https://tmuxcheatsheet.com/
   - `C-b w` - Window chooser 
     - `C-b ,` to rename
     - `C-b &` skill window
+  - `C-b o` - Next Pane
+  - `C-b ;` - Last Active Pane (toogle)
 - JC Custom
   - `C-b r` - Reload configuration
+  - `C-b O` - Prev Pane
   - `C-b \` - custom 3-pane layout (60/40 split + vertical)
   - `C-b |` - kill right panels (panes 2 and 3)
   - `C-b x` - kill current session (unbound the default `x` to close pane)
