@@ -20,6 +20,7 @@ Cheat Sheet - https://tmuxcheatsheet.com/
   - `C-b |` - kill right panels (panes 2 and 3)
   - `C-b x` - kill current session (unbound the default `x` to close pane)
   - `C-b C` - clear right panels (panes 2 and 3)
+  - `C-b K` - clear current pane (clear + \ + C-l)
 
 ## Reload configuration
 
