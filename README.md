@@ -5,25 +5,26 @@ Cheat Sheet - https://tmuxcheatsheet.com/
 ## Useful commands
 
 - Standard command
-  - `C-b z` - Toggle current pane full screen / back to same
-  - `C-b &` - close window
-  - `C-b %` - (with shift), split horizontal
-  - `C-b "` - (with shift), split vertical
-  - `C-b ,` - rename current window
-  - `C-b $` - rename current session
-  - `C-b w` - Window chooser 
-    - `C-b ,` to rename
-    - `C-b &` skill window
-  - `C-b o` - Next Pane
-  - `C-b ;` - Last Active Pane (toogle)
+  - `C-Space z` - Toggle current pane full screen / back to same
+  - `C-Space &` - close window
+  - `C-Space %` - (with shift), split horizontal
+  - `C-Space "` - (with shift), split vertical
+  - `C-Space ,` - rename current window
+  - `C-Space $` - rename current session
+  - `C-Space w` - Window chooser 
+    - `C-Space ,` to rename
+    - `C-Space &` kill window
+  - `C-Space o` - Next Pane
+  - `C-Space ;` - Last Active Pane (toggle)
 - JC Custom
-  - `C-b r` - Reload configuration
-  - `C-b O` - Prev Pane
-  - `C-b \` - custom 3-pane layout (60/40 split + vertical)
-  - `C-b |` - kill right panels (panes 2 and 3)
-  - `C-b x` - kill current session (unbound the default `x` to close pane)
-  - `C-b C` - clear right panels (panes 2 and 3)
-  - `C-b K` - clear current pane (clear + \ + C-l)
+  - `C-Space r` - Reload configuration
+  - `C-Space O` - Prev Pane
+  - `C-Space \` - custom 3-pane layout (60/40 split + vertical)
+  - `C-Space |` - kill right panels (panes 2 and 3)
+  - `C-Space x` - kill current pane (no confirmation)
+  - `C-Space X` - kill current session
+  - `C-Space C` - clear right panels (panes 2 and 3)
+  - `C-Space k` - clear current pane (clear + \ + C-l)
 
 ## Reload configuration
 
