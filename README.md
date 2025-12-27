@@ -26,6 +26,7 @@ Cheat Sheet - https://tmuxcheatsheet.com/
   - `C-Space C` - clear right panels (panes 2 and 3)
   - `C-Space k` - clear current pane (clear + \ + C-l)
   - `C-Space y` - Popup terminal (70% center)
+  - `C-Space u` - Toggle 'popup-win' (floating scratchpad)
 
 ## Reload configuration
 
