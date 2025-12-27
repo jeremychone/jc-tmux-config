@@ -25,6 +25,7 @@ Cheat Sheet - https://tmuxcheatsheet.com/
   - `C-Space X` - kill current session
   - `C-Space C` - clear right panels (panes 2 and 3)
   - `C-Space k` - clear current pane (clear + \ + C-l)
+  - `C-Space y` - Popup terminal (70% center)
 
 ## Reload configuration
 
