@@ -37,5 +37,7 @@ tmux source-file ~/.tmux.conf
 
 ## Setup
 
+- Windows and Panes start at index 1, and they are renumbered on close.
+
 This configuration is located in `~/.config/tmux/`.
 The `~/.tmux.conf` file is symlinked to `~/.config/tmux/.tmux.conf`.
