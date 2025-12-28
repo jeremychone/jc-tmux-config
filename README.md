@@ -23,6 +23,7 @@ Cheat Sheet - https://tmuxcheatsheet.com/
   - `C-Space |` - kill right panels (panes 2 and 3)
   - `C-Space x` - kill current pane (no confirmation)
   - `C-Space X` - kill current session
+  - `C-Space T` - set pane title (overrides tab name)
   - `C-Space C` - clear right panels (panes 2 and 3)
   - `C-Space k` - clear current pane (clear + \ + C-l)
   - `C-Space y` - Popup terminal (70% center)
