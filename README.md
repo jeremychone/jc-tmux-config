@@ -1,6 +1,23 @@
-# tmux configuration
+# Jeremy Chone TMUX Config
 
-Cheat Sheet - https://tmuxcheatsheet.com/
+Just sharing, cherry-pick what you need.
+
+Related repos:
+- [jc-zed-config](https://github.com/jeremychone/jc-zed-config)
+- [jc-zed-tasks](https://github.com/jeremychone/jc-zed-tasks)
+- [jc-tmux-config (this one)](https://github.com/jeremychone/jc-tmux-config)
+- [jc-alacritty-config](https://github.com/jeremychone/jc-tmux-config)
+
+## Setup
+
+- Setup host terminal with a [Nerd Fonts](https://www.nerdfonts.com/)
+- Copy or git clone into `~/.config/tmux/`
+- Edit `~/.tmux.conf` with:
+```
+source-file ~/.config/tmux/tmux-main.conf
+```
+
+Important: If you use TMUX Plugin Manager, add the `set -g @plugin...` and `run '~/.tmux/plugins/tpm/tpm'` lines in `~/.tmux.conf`. They don’t really work in `~/.config/tmux/tmux.conf`.
 
 ## Useful commands
 
@@ -30,7 +47,7 @@ Cheat Sheet - https://tmuxcheatsheet.com/
 
 ## Reload configuration
 
-To reload the tmux configuration, you can press `Prefix` + `r` or run:
+To reload the tmux configuration, press `Prefix` + `r` or run:
 
 ```sh
 tmux source-file ~/.tmux.conf
@@ -40,13 +57,15 @@ tmux source-file ~/.tmux.conf
 
 - **Prefix**: `C-Space`
 - **Mouse**: Enabled
-- **Indexing**: Windows and Panes start at `1`, renumbered on close.
+- **Indexing**: Windows and panes start at `1`, renumbered on close.
 - **Naming**: Automatic renaming enabled; manual pane titles (`Prefix T`) override window names.
 
 This configuration is located in `~/.config/tmux/`.
 The `~/.tmux.conf` file is symlinked to `~/.config/tmux/.tmux.conf`.
 
+## Others
 
-## Info
+- License: Apache OR MIT
+- TMUX Cheat Sheet - https://tmuxcheatsheet.com/
 
-License: Apache OR MIT
+[This repo](https://github.com/jeremychone/jc-tmux-config)
