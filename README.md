@@ -23,10 +23,10 @@ Cheat Sheet - https://tmuxcheatsheet.com/
   - `x` - Kill current pane (no confirm)
   - `X` - Kill current session
   - `T` - Set pane title (updates window name)
-  - `C` - Clear right panels (panes 2 and 3)
-  - `k` - Clear current pane
+  - `k` - Clear and `>` current pane
+  - `K` - Clear and `>` right panels (panes 2 and 3)
   - `y` - Floating terminal popup (70%)
-  - `u` - Toggle persistent scratchpad (`popup-win`)
+  - `u` - Toggle persistent scratchpad (`popup-win`) (experimental)
 
 ## Reload configuration
 
