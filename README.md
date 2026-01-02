@@ -36,7 +36,6 @@ To reload the tmux configuration, you can press `Prefix` + `r` or run:
 tmux source-file ~/.tmux.conf
 ```
 
-
 ## Setup
 
 - **Prefix**: `C-Space`
@@ -46,3 +45,8 @@ tmux source-file ~/.tmux.conf
 
 This configuration is located in `~/.config/tmux/`.
 The `~/.tmux.conf` file is symlinked to `~/.config/tmux/.tmux.conf`.
+
+
+## Info
+
+License: Apache OR MIT
